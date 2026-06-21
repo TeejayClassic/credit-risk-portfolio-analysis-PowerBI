@@ -83,22 +83,24 @@ The dataset contains information on loan applicants and approved loans, includin
 
 ## Data Cleaning & Preparation
 
-Before building the dashboard, the dataset was reviewed and prepared to ensure accuracy and consistency.
+Before building the dashboard, I carefully reviewed and prepared the dataset to ensure the analysis was accurate, reliable, and ready for reporting. This step was essential in creating a solid foundation for meaningful insights and effective visualization.
 
-The preparation process included:
+During the data preparation process, I:
 
-* Validating data quality and completeness
-* Reviewing records for inconsistencies
-* Correcting data types where necessary
-* Standardizing categorical fields
-* Creating calculated measures and KPIs using DAX
-* Structuring the dataset for efficient reporting and analysis
+- Reviewed the dataset to understand its structure and identify potential data quality issues.
+- Checked for missing, inconsistent, or inaccurate records and addressed them where necessary.
+- Corrected data types to ensure fields were properly formatted for analysis.
+- Standardized categorical values to maintain consistency across the dataset.
+- Created calculated measures and key performance indicators (KPIs) using DAX.
+- Structured and optimized the data model to support efficient reporting and dashboard performance.
+
+By taking these steps, I ensured that the dashboard was built on clean, consistent, and well-structured data, enabling more accurate analysis of credit risk exposure, portfolio performance, and borrower risk trends.
 
 ---
 
 ## Data Analysis
 
-The analysis was carried out across three key areas:
+I carried out these analysis in three key areas:
 
 ### Portfolio Performance Analysis
 
@@ -205,47 +207,54 @@ The Geographic Analysis page provides insights into regional lending activities 
 
 ## Key Insights & Findings
 
-Several notable insights emerged from the analysis:
+After analyzing the portfolio, I uncovered several interesting patterns and trends that helped paint a clearer picture of the loan portfolio and borrower behavior:
 
-* Grade B loans account for the largest share of the overall loan portfolio.
-* Grade A borrowers generate the highest total customer income.
-* Education-related loans represent the largest loan category within the portfolio.
-* Full-time employees receive the highest share of total loan amounts.
-* Loan distribution between male and female borrowers is relatively balanced.
-* Houston records the highest customer income among the cities analyzed.
-* Manchester, London, and Victoria rank among the cities with the highest loan volumes.
-* Edinburgh shows one of the highest Debt-to-Income ratios, indicating elevated borrower risk.
+- **Grade B loans** make up the largest portion of the overall loan portfolio, indicating that a significant share of lending activity is concentrated within this risk category.
+- Borrowers with **Grade A loans** contribute the highest total customer income, suggesting that higher-income customers tend to fall within the lowest-risk segment.
+- **Education loans** emerged as the most common loan purpose, accounting for the largest share of loans in the portfolio.
+- **Full-time employees** received the highest total loan amounts, highlighting their strong presence among approved borrowers.
+- Loan allocation between **male and female borrowers** is fairly balanced, with no significant disparity in distribution.
+- Among the cities analyzed, **Houston** recorded the highest total customer income, reflecting a strong concentration of high-earning borrowers.
+- **Manchester, London, and Victoria** stand out as the cities with the highest loan volumes, making them key contributors to the overall portfolio.
+- **Edinburgh** exhibited one of the highest Debt-to-Income (DTI) ratios, which may indicate a higher level of borrower financial strain and potential credit risk.
+
+These insights provide valuable visibility into borrower demographics, lending patterns, geographic trends, and potential areas of risk within the portfolio.
 
 ---
 
 ## Recommendations
 
+Based on the insights uncovered during the analysis, I identified several opportunities that could help improve portfolio performance and strengthen credit risk management:
+
 ### Strengthen Risk Monitoring
 
-Borrowers and locations with higher Debt-to-Income ratios should be monitored more closely to reduce potential credit losses.
+I recommend implementing closer monitoring for borrowers and locations with higher Debt-to-Income (DTI) ratios, as these segments may present a greater risk of default and potential credit losses.
 
-### Enhance Credit Assessment Criteria
+### Refine Credit Assessment Processes
 
-Debt-to-Income Ratio and Credit Utilization should play a more significant role in lending decisions and risk evaluation.
+The analysis suggests that factors such as Debt-to-Income Ratio and Credit Utilization can provide valuable indicators of borrower risk. Giving these metrics greater consideration during the credit evaluation process could lead to more informed lending decisions.
 
-### Focus on Lower-Risk Borrower Segments
+### Prioritize Lower-Risk Borrower Segments
 
-Expanding lending activities within financially stable borrower groups may help improve overall portfolio quality.
+Expanding lending activities among financially stable borrowers may help improve overall portfolio quality while maintaining sustainable growth.
 
-### Implement Geographic Risk Monitoring
+### Monitor Geographic Risk Trends
 
-Regular monitoring of city-level performance can help identify emerging risk patterns and support proactive decision-making.
+Regularly tracking loan performance across different cities can help identify emerging risk patterns early, allowing for more proactive portfolio management and risk mitigation.
 
-### Maintain Portfolio Diversification
+### Maintain a Diversified Portfolio
 
-A balanced distribution of loan grades and borrower segments can help reduce concentration risk and improve long-term portfolio stability.
+Ensuring a balanced mix of loan grades, borrower profiles, and loan purposes can help reduce concentration risk and contribute to a more resilient and stable portfolio over time.
 
 ---
 
 ## Conclusion
 
-This project provides a comprehensive view of loan portfolio performance, borrower characteristics, and geographic lending patterns through an interactive Power BI dashboard.
 
-By combining portfolio metrics, borrower analysis, and geographic insights, the dashboard helps identify key drivers of performance and areas of potential risk. The findings can support better lending decisions, improved portfolio management, and more effective credit risk monitoring.
+Through this project, I developed an interactive Power BI dashboard that provides a comprehensive view of loan portfolio performance, borrower characteristics, and lending trends across different locations.
+
+By analyzing key portfolio metrics, borrower profiles, and geographic patterns, I was able to uncover insights into lending behavior, portfolio composition, and potential areas of credit risk. The dashboard makes it easier to monitor performance, identify high-risk segments, and understand the factors influencing loan distribution across the portfolio.
+
+Overall, this project demonstrates how data visualization and analytics can be used to transform raw lending data into actionable insights that support informed decision-making, stronger portfolio management, and more effective credit risk assessment.
 
 
